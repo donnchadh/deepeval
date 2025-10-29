@@ -66,7 +66,7 @@ jobs:
       #----------------------------------------------
       #              run test suite
       #----------------------------------------------
-      
+
       # Run tests (with secrets): full suite
       - name: Run integration tests
         if: ${{ env.OPENAI_API_KEY != '' && env.CONFIDENT_API_KEY != '' && env.ANTHROPIC_API_KEY != ''}}
